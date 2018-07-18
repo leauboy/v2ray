@@ -24,7 +24,7 @@ else
 	echo -e " 哈哈……这个 ${red}辣鸡脚本${none} 不支持你的系统。 ${yellow}(-_-) ${none}" && exit 1
 fi
 
-# 笨笨的检测方法
+# 检测方法
 if [[ -f /usr/bin/apt-get ]] || [[ -f /usr/bin/yum && -f /bin/systemctl ]]; then
 
 	if [[ -f /usr/bin/yum ]]; then
